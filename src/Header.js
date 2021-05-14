@@ -5,6 +5,7 @@ function Header() {
     return (
         <div className="header">
         <h1>This is the header component</h1>
+        <h2>What is going on</h2>
             
         </div>
     )
