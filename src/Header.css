@@ -1,0 +1,34 @@
+.header {
+    height: 60px;
+    display: flex;
+    background-color: white;
+    position: sticky;
+    border-bottom: 2px solid #FCAF55;
+}
+
+.header__logo {
+    padding: 15px;
+}
+
+
+.header__right {
+    display: flex;
+    justify-content: flex-end;
+}
+.basket__icon {
+    padding: 15px;
+}
+
+.signInOrUp {
+    display: flex;
+    padding: 5px;
+}
+
+.registracija {
+    color: #B24349;
+}
+
+.basket__count {
+    color: #B24349;
+    padding: 5px;
+}
