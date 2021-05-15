@@ -4,6 +4,8 @@
     background-color: white;
     position: sticky;
     border-bottom: 2px solid #FCAF55;
+    font-family: 'Shadows Into Light Two', cursive;
+    font-weight: 700;
 }
 
 .header__logo {

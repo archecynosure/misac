@@ -1,0 +1,19 @@
+.featured {
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.transition__graphics {
+    width: 100px;
+    padding: 100px;
+}
+
+.featured > h2 {
+    font-family: 'Shadows Into Light Two', cursive;
+    margin-bottom: 70px;
+}
+
+.featured__products {
+    display: flex;
+}

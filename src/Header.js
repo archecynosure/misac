@@ -10,7 +10,7 @@ function Header() {
                    
                    <div className="header__right">
                  <div className="signInOrUp">
-                      <p className="prijava">PRIJAVA /  </p>
+                      <p className="prijava">PRIJAVA/</p> 
                       <p className="registracija">  REGISTRACIJA</p>
                   </div>
                  <img className="basket__icon" src="images/wicker-basket.png" alt="basket icon"/>

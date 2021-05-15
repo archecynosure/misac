@@ -3,6 +3,8 @@
     flex-direction: column;
     margin: auto;
     align-items: center;
+    font-family: 'Shadows Into Light Two', cursive;
+
 }
 
 .landing__image {
@@ -31,8 +33,9 @@ span {
 }
 
 .searchBar > input {
+    font-family: 'Shadows Into Light Two', cursive;
     height: 30px;
-    border: 1px solid #FCAF55;
+    border: 3px solid #FCAF55;
     border-radius: 5%;
     text-align: center;
     color: gray;
@@ -42,6 +45,7 @@ span {
     height: 25px;
     margin-left: 5px;
     margin-top: 5px;
+    color: #FCAF55;
 }
 
 .product__categories {
@@ -49,4 +53,5 @@ span {
     justify-content: space-evenly;
     width: 100%;
     margin-top: 60px;
+    font-weight: 800;
 }
