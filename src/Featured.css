@@ -1,19 +1,23 @@
 .featured {
     display: flex;
     flex-direction: column;
-    align-items: center;   
 }
 
 .transition__graphics {
-    width: 100px;
-    padding: 100px;
+    width: 50px;
 }
 
-.featured > h2 {
-    font-family: 'Shadows Into Light Two', cursive;
-    margin-bottom: 70px;
+.transition {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 150px;
+    margin-bottom: 60px;
 }
 
 .featured__products {
     display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
 }

@@ -1,0 +1,25 @@
+.contactUs {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.contact__links {
+    margin-left: -120px;
+}
+
+.socialMedia__links {
+    display: flex;
+}
+
+.socialMedia__links > img {
+    max-width: 60px;
+    padding: 20px;
+}
+
+.socialMedia__links > img:hover {
+    background-color: #B24349;
+}

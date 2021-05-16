@@ -1,10 +1,12 @@
 .header {
     height: 60px;
     display: flex;
+    flex-direction: row;
+    align-content: space-evenly;
     background-color: white;
     position: sticky;
     border-bottom: 2px solid #FCAF55;
-    font-family: 'Shadows Into Light Two', cursive;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
 
@@ -12,18 +14,18 @@
     padding: 15px;
 }
 
-
-.header__right {
+.header__functional {
     display: flex;
+    align-items: center;
     justify-content: flex-end;
-}
-.basket__icon {
-    padding: 15px;
+    width: 85vw;
+
 }
 
-.signInOrUp {
-    display: flex;
-    padding: 5px;
+.basket__icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 40px;
 }
 
 .registracija {
@@ -32,5 +34,5 @@
 
 .basket__count {
     color: #B24349;
-    padding: 5px;
+    margin-left: 15px;
 }

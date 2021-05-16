@@ -5,8 +5,11 @@ import Product from './Product.js'
 function Featured() {
     return (
         <div className='featured'>
-            <img className="transition__graphics" src="images/Group 1.svg" alt="" />
+        <div className="transition">
+            <img className="transition__graphics" src="images/cheese.svg" alt="" />
             <h2>IZDVAJAMO IZ PONUDE</h2>
+            <img className="transition__graphics" src="images/cheese.svg" alt="" />
+        </div>
              <div className="featured__products" >
                     <Product id="4903850"
                         image="https://www.junglebaby.rs/files/thumbs/files/images/product/thumbs_1200/710024053_1200_1200px.jpg"
