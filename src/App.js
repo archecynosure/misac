@@ -4,6 +4,7 @@ import Landing from "./Landing.js"
 import Featured from "./Featured.js"
 import About from './About.js'
 import ContactUs from './ContactUs.js'
+import Description from './Description.js'
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
     <div className="App">
       <Header />
       <Landing />
+      <Description />
       <Featured />
       <About />
       <ContactUs />

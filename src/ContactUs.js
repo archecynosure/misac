@@ -10,6 +10,9 @@ function ContactUs() {
                 <p>Zaposlenje</p>
                 <p>Uslovi korišćenja</p>
             </div>
+
+            <img className="contact__icon" src="images/contacticon.svg" alt=""/>
+
             <div className="socialMedia__links">
                 <img src="images/facebook.svg" alt="facebook icon"/>
                 <img src="images/twitter.svg" alt="twitter icon"/>
