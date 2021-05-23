@@ -5,14 +5,15 @@
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     background-color: #FFCBBE;
-    border: 5px dotted white;
+    border-top: 5px dotted white;
+    border-bottom: 5px dotted white;
 }
 
 .about__item {
     align-items: center;
     text-align: center;
     max-width: 140px;
-    padding: 80px 40px 80px 40px;
+    padding: 80px 20px 80px 20px;
 }
 
 .about__item > img {

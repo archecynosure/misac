@@ -16,12 +16,15 @@
 
 .product > button {
     border-radius: 5px;
-    background-color: white;
+    border: none;
+    background-color: #B24349;
     font-family: 'Shadows Into Light Two', cursive;
+    color: white;
+    padding: 10px;
     font-weight: 600;
     margin-top: 10px;
 }
 
 .product:hover {
-    background-color: #FFC66C;
+    background-color: #FFCBBE;
 }

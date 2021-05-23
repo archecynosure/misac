@@ -1,38 +1,52 @@
 .header {
     height: 60px;
     display: flex;
-    flex-direction: row;
-    align-content: space-evenly;
+    align-items: center;
+    justify-content: space-between;
     background-color: white;
     position: sticky;
-    border-bottom: 2px solid #FCAF55;
-    font-family: 'Montserrat', sans-serif;
+    top: 0;
+    z-index: 100;
+    border-bottom: 2px solid #B24349;
+    font-family: 'Montserrat', sans-serif; 
     font-weight: 700;
+}
+    
+.nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.login__option {
+    height: 60px;
+    padding-top: 15px;
+}
+
+a:visited, a:link, a:active {
+    text-decoration: none !important;
+    color: black;
+} 
+
+a:hover {
+    color: #B24349;
 }
 
 .header__logo {
-    padding: 15px;
-}
-
-.header__functional {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 85vw;
-
+    width: 100px;
+    object-fit: contain;
+    padding: 10px;
 }
 
 .basket__icon {
     width: 20px;
     height: 20px;
-    margin-left: 40px;
-}
-
-.registracija {
-    color: #B24349;
+    margin-left: 15px;
 }
 
 .basket__count {
     color: #B24349;
     margin-left: 15px;
+    margin-right: 15px;
 }
+
+

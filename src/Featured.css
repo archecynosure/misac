@@ -1,6 +1,7 @@
 .featured {
     display: flex;
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
 .transition__graphics {
@@ -12,8 +13,12 @@
     font-weight: 900;
     display: flex;
     justify-content: space-around;
-    margin-top: 150px;
-    margin-bottom: 60px;
+    margin: 150px 100px 10px 100px;
+}
+
+.transition > h2 {
+    padding: 20px;
+    text-align: center;
 }
 
 .featured__products {
